@@ -1,0 +1,6 @@
+.livros__preco {
+    color: var(--cor-preco-texto);
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+}

@@ -1,0 +1,10 @@
+.livros__tag {
+    background: rgba(197, 197, 197, 0.25);
+    border-radius: 4px;
+    color: var(--cor-tag-texto);
+    font-size: 0.875rem;
+    font-weight: 500;
+    margin-right: 1rem;
+    padding: 0.3125rem 0.25rem;
+    text-align: left;
+}
