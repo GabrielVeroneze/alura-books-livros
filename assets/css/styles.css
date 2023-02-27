@@ -1,0 +1,37 @@
+@import url('../css/cabecalho.css');
+@import url('../css/banner.css');
+@import url('../css/principal.css');
+@import url('../css/navegacao/navegacao.css');
+@import url('../css/navegacao/navegacao-lista.css');
+@import url('../css/navegacao/navegacao-botao.css');
+@import url('../css/livros/livros.css');
+@import url('../css/livros/livros-card.css');
+
+/* fonte */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --cor-de-fundo: #ffffff;
+    --cor-botao: #326589;
+
+    --cor-titulo-texto: #fc6621;
+    --cor-descricao-texto: #fc6621;
+    --cor-preco-texto: #002f52;
+    --cor-autor-texto: #858585;
+    --cor-tag-texto: #9c9c9c;
+
+    --fonte-principal: 'Poppins', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--fonte-principal);
+}
+
+a {
+    all: unset;
+    cursor: pointer;
+}
