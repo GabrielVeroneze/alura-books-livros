@@ -1,0 +1,9 @@
+.rodape {
+    align-items: center;
+    background: linear-gradient(96.48deg, #002f52 36.3%, #326589 99.56%);
+    display: flex;
+    height: 104px;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
