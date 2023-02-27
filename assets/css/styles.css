@@ -6,6 +6,15 @@
 @import url('../css/navegacao/navegacao-botao.css');
 @import url('../css/livros/livros.css');
 @import url('../css/livros/livros-card.css');
+@import url('../css/livros/livros-titulo.css');
+@import url('../css/livros/livros-descricao.css');
+@import url('../css/livros/livros-preco.css');
+@import url('../css/livros/livros-tags.css');
+@import url('../css/livros/livros-tag.css');
+@import url('../css/mensagem/mensagem.css');
+@import url('../css/mensagem/mensagem-texto.css');
+@import url('../css/rodape/rodape.css');
+@import url('../css/rodape/rodape-texto.css');
 
 /* fonte */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
