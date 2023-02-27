@@ -1,0 +1,10 @@
+.mensagem {
+    align-items: center;
+    background-color: var(--cor-descricao-texto);
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    margin-bottom: 2rem;
+    text-align: center;
+    width: 100%;
+}
