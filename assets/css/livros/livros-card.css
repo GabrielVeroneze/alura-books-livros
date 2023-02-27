@@ -1,0 +1,8 @@
+.livros__card {
+    width: 302px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 644px;
+    margin-bottom: 1rem;
+}
