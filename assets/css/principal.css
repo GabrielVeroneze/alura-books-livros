@@ -1,5 +1,6 @@
 .principal {
     margin: 0 auto;
-    max-width: 1280px;
+    padding: 0 1rem;
     width: 100%;
+    max-width: calc(1280px + 2rem);
 }

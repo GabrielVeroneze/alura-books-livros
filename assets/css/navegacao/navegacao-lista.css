@@ -1,5 +1,13 @@
 .navegacao__lista {
     align-items: center;
     display: flex; 
-    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+}
+
+@media screen and (min-width: 1024px) {
+    .navegacao__lista {
+        justify-content: space-between;
+    }
 }

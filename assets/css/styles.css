@@ -1,5 +1,7 @@
 @import url('../css/cabecalho.css');
-@import url('../css/banner.css');
+@import url('../css/banner/banner.css');
+@import url('../css/banner/banner-titulo.css');
+@import url('../css/banner/banner-texto.css');
 @import url('../css/principal.css');
 @import url('../css/navegacao/navegacao.css');
 @import url('../css/navegacao/navegacao-lista.css');

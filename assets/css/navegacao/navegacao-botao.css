@@ -5,11 +5,11 @@
     color: #fff;
     cursor: pointer;
     font-family: var(--fonte-principal);
-    font-size: 0.9rem;
+    font-size: 0.875rem;
     font-style: normal;
     font-weight: 400;
     height: 44px;
-    padding: 0.625rem 1rem;
+    padding: 0.5rem;
     text-decoration: none;
 }
 
@@ -17,4 +17,11 @@
     border-bottom: 2px solid #fc6621;
     border-radius: 10px;
     color: #cecdcd;
+}
+
+@media screen and (min-width: 1024px) {
+    .navegacao__botao {
+        font-size: 0.9rem;
+        padding: 0.625rem 1rem;
+    }
 }
