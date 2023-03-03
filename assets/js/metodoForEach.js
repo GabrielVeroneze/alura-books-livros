@@ -2,6 +2,8 @@ const elementoParaInserirLivros = document.querySelector('#livros')
 
 function exibirLivros(listaDeLivros) {
 
+    elementoParaInserirLivros.innerHTML = ''
+
     listaDeLivros.forEach(livro => {
         
         elementoParaInserirLivros.innerHTML += `
