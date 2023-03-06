@@ -5,9 +5,10 @@ function exibirLivros(listaDeLivros) {
     elementoParaInserirLivros.innerHTML = ''
 
     listaDeLivros.forEach(livro => {
-        
+        const disponibilidade = livro.quantidade > 0 ? '' : 'livros--indisponivel'
+
         elementoParaInserirLivros.innerHTML += `
-            <div class="livros__card">
+            <div class="livros__card ${disponibilidade}">
                 <img class="livros__imagem" src="${livro.imagem}" alt="${livro.alt}">
                 <h2 class="livros__titulo">
                     ${livro.titulo}
