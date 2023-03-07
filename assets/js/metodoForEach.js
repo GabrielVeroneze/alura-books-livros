@@ -1,8 +1,10 @@
 const elementoParaInserirLivros = document.querySelector('#livros')
+const elementoComValorTotalLivros = document.querySelector('#valorTotalLivros')
 
 function exibirLivros(listaDeLivros) {
 
     elementoParaInserirLivros.innerHTML = ''
+    elementoComValorTotalLivros.innerHTML = ''
 
     listaDeLivros.forEach(livro => {
         const disponibilidade = livro.quantidade > 0 ? '' : 'livros--indisponivel'

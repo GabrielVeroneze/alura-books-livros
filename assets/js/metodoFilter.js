@@ -7,10 +7,32 @@ botoes.forEach(botao => {
 
 // recebe como parâmetro o valor do botao clicado ('front-end', 'back-end', 'dados', 'disponivel')
 function filtrarLivros(categoria) {
-    // Se a categoria for igual 'disponivel' cria um novo array com os livros que possuir a quantidade maior que zero
-    // Senão, cria um novo array com os livros que possuir o valor da categoria igual o do parâmetro categoria
-    let livrosFiltrados = categoria == 'disponivel' ? livros.filter(livro => livro.quantidade > 0) : livros.filter(livro => livro.categoria === categoria)
-
+    // Se a categoria for igual 'disponivel' chama a função filtrarPorDisponibilidade(), senão, chama a função filtrarPorCategoria()  
+    let livrosFiltrados = categoria == 'disponivel' ? filtrarPorDisponibilidade() : filtrarPorCategoria(categoria)
+    
     // Exibe os livros filtrados na tela
     exibirLivros(livrosFiltrados)
+    
+    if (categoria == 'disponivel') {
+        exibirValorTotalLivros()
+    }
+}
+
+function filtrarPorCategoria(categoria) {
+    // Retorna um novo array com os livros que possuir o valor da categoria igual o do parâmetro categoria
+    return livros.filter(livro => livro.categoria === categoria)
+}
+
+function filtrarPorDisponibilidade() {
+    // Retorna um novo array com os livros que possuir a quantidade maior que zero
+    return livros.filter(livro => livro.quantidade > 0)
+}
+
+function exibirValorTotalLivros() {
+
+    elementoComValorTotalLivros.innerHTML = `
+        <div class="mensagem">
+            <p class="mensagem__texto">Todos os livros disponíveis por R$ <span id="valor">299,00</span></p>
+        </div>
+    `
 }
