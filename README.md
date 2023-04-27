@@ -1,5 +1,4 @@
-<p align="center"> <img src="https://imgur.com/J3hD21O.png" alt="Javascript: criando requisições"> </p>
-<p>Projeto desenvolvido durante o curso "Javascript: criando requisições" da Alura.</p>
+<p>Projeto desenvolvido durante o curso "JavaScript: métodos de array" da Alura.</p>
 
 <hr>
 
