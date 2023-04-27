@@ -28,8 +28,8 @@
 
 - <img height="50px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"><br>
     - `@import`
-    - `flexbox`
     - `box-sizing`
+    - `flexbox`
     - `media queries`
     - e outros
 
